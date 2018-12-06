@@ -21,7 +21,7 @@
     "ext-curl": "*",
     "ext-json": "*",
     "ext-openssl": "*",
-    "taoxin/wechat-dev": "*"
+    "taoxin/wechat-dev": "dev-master"
   },
   "autoload": {
     "psr-4": {
