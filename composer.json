@@ -1,0 +1,33 @@
+{
+  "type": "library",
+  "name": "taoxin/weopen-dev",
+  "homepage": "https://github.com/taochangle/WeOpen_DEV",
+  "description": "WeChat Open development of SDK",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "taoxin",
+      "email": "taoxin0704@gmail.com",
+      "homepage": "http://taoxin.tk"
+    }
+  ],
+  "keywords": [
+    "WeChat",
+    "WeChatOpen",
+    "WeChatOpenDeveloper"
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-openssl": "*",
+    "taoxin/wechat-dev": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "WeOpen\\": "WeOpen",
+      "WeChat\\": "WeChat",
+      "WeMini\\": "WeMini"
+    }
+  }
+}
